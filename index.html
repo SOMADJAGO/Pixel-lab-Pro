@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Télécharger notre application</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 20px;
+            border: 5px solid #007bff; /* Bordure bleue */
+            border-radius: 10px; /* Coins arrondis */
+            margin: 20px; /* Espacement autour de la bordure */
+        }
+        h1 {
+            color: #007bff;
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .btn-download {
+            margin-top: 20px;
+            font-size: 18px;
+            padding: 12px;
+            width: 90%;
+            max-width: 400px;
+        }
+        .app-image {
+            max-width: 50%;
+            height: auto;
+            margin-top: 15%;
+        }
+        .navbar {
+            padding: 10px;
+        }
+        /* Styles pour les bannières publicitaires */
+        .publicite-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        .publicite {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 400px;
+            border: 3px solid #ff8800;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            animation: clignotement 1.5s infinite alternate;
+            margin-bottom: 20px;
+        }
+        .publicite p {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .btn-publicite {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: transform 0.2s ease-in-out;
+        }
+        .btn-publicite:hover {
+            transform: scale(1.1);
+            background-color: #1ebd57;
+        }
+        @keyframes clignotement {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.05); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container text-center">
+            <a class="navbar-brand mx-auto" href="#">NETFLIX PREMUIM</a>
+        </div>
+    </nav>
+
+    <!-- Section principale -->
+    <header class="container mt-4">
+        <h1>Découvrez NETFLIX PREMUIM DESACTIVER</h1>
+        <p>NETFLIX: l'option premium désactivée.</p> <br>
+        <img src="netflix.jpg" class="app-image img-fluid" alt="Capture d'écran de l'application">
+        <br>
+        <!-- Bouton vers la page de téléchargement -->
+        <a href="download.html" class="btn btn-success btn-lg btn-download">Télécharger l'Application</a>
+    </header>
+
+    <!-- Bannières publicitaires en bas de page -->
+    <div class="publicite-container">
+        <!-- Bannière pour les produits et services -->
+        <div class="publicite">
+            <p>🔔 Vous avez des produits à écouler ou cherchez plus de visibilité ?  
+            Vous proposez des services ou avez des offres à partager ?  
+            📢 Rejoignez notre groupe WhatsApp et boostez votre activité dès maintenant !</p>
+            <a href="https://chat.whatsapp.com/HsJcpTAYS1kLj4amkVL53t" target="_blank" class="btn-publicite">👉 Rejoindre le Groupe</a>
+        </div>
+
+        <!-- Bannière pour les offres d'emploi -->
+        <div class="publicite">
+            <p>👔 Vous recherchez un emploi ou avez des opportunités à partager ?  
+            🚀 Ne manquez plus aucune offre et agrandissez votre réseau professionnel !  
+            📢 Rejoignez notre groupe WhatsApp dédié aux offres d'emploi dès maintenant.</p>
+            <a href="https://chat.whatsapp.com/EDEdQVzwbm9GtRIWV9HupW" target="_blank" class="btn-publicite">👉 Rejoindre le Groupe Emploi</a>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer>
+        <h1><p>&copy; 2024 Leroy Perez. Tous droits réservés</p></h1>
+    </footer>
+
+</body>
+    </html>
